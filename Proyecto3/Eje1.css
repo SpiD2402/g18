@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    font-family: Arial;;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.nombre{
+    position: absolute;
+}
+
+.contenedor1{
+   
+    background-color: violet ;
+}
+
+.codigo{
+    
+    margin-bottom: 50px;
+}

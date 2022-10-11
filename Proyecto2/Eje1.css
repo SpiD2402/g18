@@ -10,9 +10,16 @@ body{
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    
+    
     
     
 }
+
 .logo{
     margin-left: 25px;
 }
@@ -25,11 +32,27 @@ body{
     
 
 }
+.servici  a{
+    text-decoration: none;
+    color: white;
+}
 
+.servici a{
+    transition:all;
+}
+.servici a:hover{
+    background: black;
+    border-radius: 10px;
+    
+}
 
 .seccion{
- 
     padding: 20px;
+    
+    margin-top: 4rem;
+
+
+
 }
 .home{
     color: #3B06D2;
@@ -39,7 +62,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 8rem;
     padding-top: 20px;
   
 
@@ -51,7 +74,7 @@ body{
     
 }
 
-.servicios{
+#servicios{
     color: #D206B2;
 }
 
@@ -106,6 +129,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     background-color: #00AF1C;
+    color: white;
 }
 .mov{
 

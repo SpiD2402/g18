@@ -9,14 +9,15 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     min-height: 100vh;
+    
 }
 .nombre,.des,.presentacion {
     letter-spacing: 1.5px;
-    margin: 0px;
+    margin: 0;
 }
 
 .div1{
-
+    border: solid green ;
     background-color: hsla(222, 14%, 15%, 0.70);
     display: flex;
     flex-direction: column;
@@ -32,6 +33,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    
 }
 
 
@@ -39,24 +41,53 @@ body{
     
     
     border-radius: 30px;
+    width: 60px;
+    height: 60px;
 }
 .principal{
     border-radius: 20px;
 }
 
-.fb,.git,.yt{
-
-    width: 60px;
-    height: 60px;
-   
-}
-.pies a{
-    transition: all;
+.pies a {
+    transition: all 1s;
 }
 .pies a:hover{
-    background: gray;
-    background: gray;
-    border-radius: 15px;
+    transform: scale(1.20);
+   
 }
 
 
+
+@media only screen and (max-width : 700px) {
+
+    .fuente{
+        font-size: 10px;
+    }
+    .principal{
+        height: 150px;
+        width: 150px;
+    }
+    .fb,.git,.yt{
+    
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media only screen and (max-width : 500px) {
+
+    .fuente{
+        font-size: 7px;
+    }
+    .principal{
+        height: 100px;
+        width: 100px;
+    }
+    .fb,.git,.yt{
+    
+        height: 30px;
+        width: 30px;
+    }
+
+}
