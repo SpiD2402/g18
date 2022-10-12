@@ -67,11 +67,15 @@
     border-radius: 20px;
     border: none;
 }
-.skills{
+/*.skills{
     background-color: #9122FF;
     padding: 30px 40px 70px 40px;
-    
-    
+}*/
+
+.skl{
+    text-align: center;
+    background-color: #9122FF;
+    padding: 30px 40px 70px 40px;
 }
 
 .skills h2{
@@ -140,11 +144,72 @@
     
 }
 
-
+.font{
+    font-size: 36px;
+    color:#26CC4B ;
+}
 .skills{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 40px;
+    position: relative;
+}
+
+.html{
+    position: absolute;
 }
 
 
+.portafolio{
+
+    background-color: #FFD233;
+    padding-bottom: 70px;
+    
+}
+.portafolio{
+    text-align: center;
+}
+
+
+.por{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.titulo{
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.c1 img,.c2 img{
+    margin-left: 20px;
+}
+
+.nom-cli{
+    text-align: center;
+    font-size: 36px;
+    color: #ADFF28;
+
+    padding-top: 30px;
+}
+.clientes{
+    background-color: #3F4E62;
+    padding-bottom: 70px;
+    
+}
+.contenedor-cli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 4rem;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    
+}
+
+.pl{
+    display: block;
+    justify-content: center;
+   text-align: center;
+    align-items: center;
+    border: solid;
+    margin-top: 10rem;
+    margin-right: 900px;
+}
+
+.pl p{
+    text-align: left;
+}
