@@ -6,6 +6,7 @@
 
 .wrap{
     margin: auto;
+    max-width: 960px;
 }
 
 .cabecera{
@@ -175,7 +176,7 @@
 }
 
 
-.por{
+.moverp{
     
     display: flex;
     justify-content: center;
@@ -212,4 +213,47 @@
     flex-wrap: wrap;
     padding-top: 5rem;
     gap: 4rem;
+}
+.tit-contacto{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.im{
+    width: 363px;
+    height: 59px;
+}
+
+
+.im2{
+    width: 759px;
+    height: 112px;
+    
+}
+.im,.im2,.btn{
+    margin: 1rem 1rem;
+    
+}
+.contacto{
+    background-color: #1687A0;
+}
+.c-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boton2{
+    width: 167px;
+    height: 56px;
+    background-color: #233451;
+    color: white;
+}
+.btn-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

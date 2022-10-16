@@ -16,6 +16,11 @@
     justify-content: space-between;
     margin-top: 1rem;
 }
+.contenedorB .front{
+   color: #00CF95;
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
 
 .navegacion ul{
     display: flex;
@@ -60,6 +65,8 @@
     margin-right: 12rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+   
+
 
 }
 .boton{
@@ -77,17 +84,25 @@
     width: 20%;
 }
 
-.pr1{
+
+
+.contenedorC{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    padding-top: 20px;
+    align-items: center;
 }
-.pr2{
+.contenedorC .pr1{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
+
+}
+.contenedorC .pr2{
+    display: flex;
+    justify-content: center;
+
+}
+.portafolio{
+    margin-left: 7.5rem;
 }
 

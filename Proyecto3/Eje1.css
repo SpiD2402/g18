@@ -116,3 +116,25 @@
     margin-bottom: 20px;
     
 }
+.cabeza4{
+    background-color: #3F4E62;
+}
+.cabeza4 .portafolio{
+    text-align: center;
+}
+
+.contenedor-porta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.porta1 img ,.porta2 img{
+    padding-top: 3rem;
+   
+}
+
+
+
+
