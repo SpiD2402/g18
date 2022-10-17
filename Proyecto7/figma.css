@@ -40,33 +40,35 @@
 .contenedorB{
     display: flex;
     align-items: center;
+    margin: 6rem;
+
 }
 
 .texto h1{
     font-size: 32px;
 }
-.texto{
-    
-      
-    margin-right: 6rem;
-    padding-left: 4rem;
-    margin-left: 2rem;
-}
+.lorem{
+    text-align: left;
+    padding-right: 7rem;
+ }
+
 .contenedorC{
     display: flex;
     
 }
 .separar{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+
 
 }
 .icono{
-    margin-right: 12rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-   
 
+margin-left: 2rem;
+   
 
 }
 .boton{
@@ -84,7 +86,14 @@
     width: 20%;
 }
 
+.icono-flecha{
+    
+    display: flex;
+    justify-content: center;
 
+}
+
+/*Parte 2*/
 
 .contenedorC{
     display: flex;
@@ -106,3 +115,11 @@
     margin-left: 7.5rem;
 }
 
+
+.contenedorC img{
+ 
+    padding: 5px;
+}
+.mov-porta{
+    margin-top: 2rem;
+}
