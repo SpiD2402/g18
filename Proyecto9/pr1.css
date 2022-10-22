@@ -144,3 +144,69 @@ h4{
 .img-share img{
     margin: 0rem 1rem;
 }
+
+.share-save3 img{
+    
+    margin: 0rem 10px;
+    
+}
+
+.flecha span{
+    margin-left: 1rem;
+
+}
+.pies{
+    background-color: #316099;
+}
+.pies2
+{
+    
+    margin: 0rem 7rem;
+    
+}
+
+.foter1{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+    
+}
+.foter1 .boton{
+    width: 220px;
+    height: 56px;
+  background-color: #5A98D0;
+  border: none;
+  color: white;
+}
+.foter1 h1{
+    color: white;
+}
+.intersted h1{
+   
+    margin-right: 14rem;
+}
+.intersted p{
+    margin-right: 8rem;
+}
+
+.logo-afr{
+    display: flex;
+    align-items: center;
+}
+.contenedor{
+    margin-right: 0;
+}
+
+.flex-contenedor{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.about,.follow,.afrinska{
+    color: white;
+    font-size: 20px;
+}
